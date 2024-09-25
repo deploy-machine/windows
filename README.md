@@ -23,7 +23,7 @@ You can directly fetch and execute the install or uninstall commands from the re
 Run the following PowerShell command to install all the applications listed in the `install_apps.txt` file from the repository:
 
 ```powershell
- $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/install_apps.txt).Content -split "`n" | ForEach-Object {
+ $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/dev-machine/main/install_apps.txt).Content -split "`n" | ForEach-Object {
      $appId = $_.Trim()
      Write-Host "Attempting to install: '$appId'"
      winget install --id $appId --silent --accept-package-agreements --accept-source-agreements
@@ -37,7 +37,7 @@ This command fetches the raw content of the `install_apps.txt` file from the Git
 Run the following PowerShell command to remove all the applications listed in the `remove_apps.txt` file from the repository:
 
 ```powershell
- $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/remove_apps.txt).Content -split "`n" | ForEach-Object {
+ $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/dev-machine/main/remove_apps.txt).Content -split "`n" | ForEach-Object {
      $appName = $_.Trim()
      Write-Host "Attempting to uninstall: '$appName'"
      winget uninstall "$appName" --silent --accept-source-agreements
@@ -55,50 +55,41 @@ If you'd like to customize the apps to be installed or removed, you can:
 ### Example App Lists
 
 #### Apps to Install (`install_apps.txt`):
-(Apps I want installed on my gaming rig)
+(Apps I want installed on my dev rig)
 
-**The following apps I have in case I need to do some quick development on my gaming rig, or when I need applications from code sources**:
 - NVM for Windows (NodeJS)
 - Android Studio
 - Neofetch
 - Git
 - Git LFS
 - Neovim
+- Zig
 - Ripgrep
-- Latest Powershell
+- Powershell
+- JetBrainsMono NerdFont 
 - Visual Studio 2022 Community
-- Figma
-- GIMP
-- Blender
+- Visual Studio Code
 - Sysinternals
 - Oh-my-posh
 - Python
-- VulkanSDK
+- Dart
+- Xampp
+- OpenJDK 11, 16, 17, 21
+- Dotnet 8
 - Windows Terminal (usually comes pre-installed)
 
 **The following apps are general purpose**:
 - 7zip (compression)
 - Revo Uninstaller (properly uninstall by cleaning up system)
 - Google Chrome
+- Mozilla Firefox
+- Opera
 - Microsoft Edge (usually comes pre-installed)
 - Microsoft Visual C++ Redistributable 2010 - 2012 - 2015 - 2022 x86 and x64 (app and game compatibility)
-- TechPowerUp.GPU-Z
-- Adguard (anti-ads)
 - Bitwarden (password manager)
 
 **Communication apps**:
-- Discord
 - Teams
-
-**The following apps I want to have on my gaming rig as essential**:
-- RSI Launcher
-- Steam
-- Ubisoft
-- Epic Games
-
-**Hardware and peripherals**:
-- Steelseries (headphones)
-- Razer Synapse (Keyboard)
 
 #### Apps to Remove (`remove_apps.txt`):
 (Default windows 11 apps that I don't require on my gaming rig...)
@@ -108,13 +99,8 @@ If you'd like to customize the apps to be installed or removed, you can:
 - MSN Weather
 - News
 - Microsoft Bing Search
-- Microsoft OneDrive
-- Microsoft 365 (Office)
 - Solitaire & Casual Games
-- Microsoft Sticky Notes
-- Outlook for Windows
 - Paint
-- Power Automate
 
 ### Troubleshooting
 

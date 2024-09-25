@@ -5,6 +5,8 @@ CoreyButler.NVMforWindows
 7zip.7zip
 Microsoft.Powershell
 Google.Chrome.EXE
+Mozilla.Firefox
+Opera.Opera
 Microsoft.Edge
 nepnep.neofetch-win
 GitHub.GitLFS
