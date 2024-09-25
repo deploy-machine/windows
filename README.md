@@ -92,9 +92,7 @@ If you'd like to customize the apps to be installed or removed, you can:
 - Teams
 
 #### Apps to Remove (`remove_apps.txt`):
-(Default windows 11 apps that I don't require on my gaming rig...)
-
-**Caution: disabling these windows built-in apps hasn't been tested yet, be very carefull when running the remove apps command!**:
+(Default windows 11 apps that I don't require on my development rig...)
 
 - MSN Weather
 - News
