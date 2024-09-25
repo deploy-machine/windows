@@ -11,7 +11,8 @@ Microsoft.Edge
 nepnep.neofetch-win
 GitHub.GitLFS
 Neovim.Neovim
-zig.zig
+LLVM.LLVM
+LLVM.ClangFormat
 BurntSushi.ripgrep.MSVC
 RevoUninstaller.RevoUninstaller
 Microsoft.VisualStudioCode
