@@ -1,4 +1,4 @@
-# Gaming Machine Setup
+# Development Machine Setup
 
 This repository contains remote scripts to install and remove applications on your Windows machine using `winget`, without needing to clone the repository.
 
