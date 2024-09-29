@@ -42,3 +42,4 @@ Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.AspNetCore.8
 LGUG2Z.komorebi
 LGUG2Z.whkd
+aristocratos.btop4win
