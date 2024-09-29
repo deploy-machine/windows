@@ -13,6 +13,7 @@ GitHub.GitLFS
 Neovim.Neovim
 LLVM.LLVM
 LLVM.ClangFormat
+Kitware.Cmake
 BurntSushi.ripgrep.MSVC
 RevoUninstaller.RevoUninstaller
 Microsoft.VisualStudioCode
