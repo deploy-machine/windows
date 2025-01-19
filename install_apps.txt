@@ -15,7 +15,6 @@ LLVM.LLVM
 LLVM.ClangFormat
 Kitware.Cmake
 BurntSushi.ripgrep.MSVC
-RevoUninstaller.RevoUninstaller
 Microsoft.VisualStudioCode
 Microsoft.VisualStudio.2022.Community
 Microsoft.VCRedist.2010.x86
@@ -41,6 +40,4 @@ Microsoft.DotNet.Runtime.8
 Microsoft.DotNet.HostingBundle.8
 Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.AspNetCore.8
-LGUG2Z.komorebi
-LGUG2Z.whkd
 aristocratos.btop4win
