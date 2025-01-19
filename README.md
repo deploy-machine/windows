@@ -76,17 +76,17 @@ If you'd like to customize the apps to be installed or removed, you can:
 - Xampp
 - OpenJDK 11, 16, 17, 21
 - Dotnet 8
-- Windows Terminal (usually comes pre-installed)
+- Windows Terminal
+- btop
 
 **The following apps are general purpose**:
-- 7zip (compression)
-- Revo Uninstaller (properly uninstall by cleaning up system)
+- 7zip
 - Google Chrome
 - Mozilla Firefox
 - Opera
-- Microsoft Edge (usually comes pre-installed)
+- Microsoft Edge
 - Microsoft Visual C++ Redistributable 2010 - 2012 - 2015 - 2022 x86 and x64 (app and game compatibility)
-- Bitwarden (password manager)
+- Bitwarden
 
 **Communication apps**:
 - Teams
