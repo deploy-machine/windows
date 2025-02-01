@@ -23,7 +23,7 @@ You can directly fetch and execute the install or uninstall commands from the re
 Run the following PowerShell command to install all the applications listed in the `packages.json` file from the repository:
 
 ```powershell
-winget import -i https://raw.githubusercontent.com/Simbaclaws/dev-windows/refs/heads/main/packages.json
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Simbaclaws/dev-windows/refs/heads/main/package.json" -OutFile "$($env:TEMP)\packages.json" ; winget import -i "$($env:TEMP)\packages.json"
 ```
 
 This command fetches the raw content of the `install_apps.txt` file from the GitHub repository and installs each application listed in that file.
