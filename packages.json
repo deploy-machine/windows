@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-02-01T01:59:24.808-00:00",
+	"CreationDate" : "2025-02-10T21:48:40.737-00:00",
 	"Sources" : 
 	[
 		{
@@ -94,6 +94,9 @@
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
+					"PackageIdentifier" : "Insecure.Nmap"
+				},
+				{
 					"PackageIdentifier" : "Valve.Steam"
 				},
 				{
@@ -118,6 +121,12 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
+					"PackageIdentifier" : "o2sh.onefetch"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
 				},
 				{
@@ -134,6 +143,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
@@ -169,6 +181,9 @@
 					"PackageIdentifier" : "Opera.Opera"
 				},
 				{
+					"PackageIdentifier" : "Rustlang.Rustup"
+				},
+				{
 					"PackageIdentifier" : "aristocratos.btop4win"
 				},
 				{
@@ -176,6 +191,9 @@
 				},
 				{
 					"PackageIdentifier" : "junegunn.fzf"
+				},
+				{
+					"PackageIdentifier" : "pnpm.pnpm"
 				},
 				{
 					"PackageIdentifier" : "LocalSend.LocalSend"
