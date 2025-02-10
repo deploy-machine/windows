@@ -26,7 +26,9 @@ Run the following PowerShell command to install all the applications listed in t
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Simbaclaws/dev-windows/refs/heads/main/packages.json" -OutFile "$($env:TEMP)\packages.json" ; winget import -i "$($env:TEMP)\packages.json"
 ```
 
-This command fetches the raw content of the `install_apps.txt` file from the GitHub repository and installs each application listed in that file.
+This command fetches the raw content of the `packages.json` file from the GitHub repository and installs each application listed in that file with winget.
+
+You can export a packages.json file with `winget export packages.json`. This will export all of your currently installed apps to a `packages.json` file.
 
 ### Step 2: Remove Applications
 
@@ -41,60 +43,6 @@ Run the following PowerShell command to remove all the applications listed in th
 ```
 
 This command fetches the raw content of the `remove_apps.txt` file from the GitHub repository and uninstalls each application listed in that file.
-
-### Customization
-
-If you'd like to customize the apps to be installed or removed, you can:
-- Fork this repository and modify the `install_apps.txt` or `remove_apps.txt` files in your own GitHub repository.
-- Replace the URLs in the above commands with your own GitHub raw file links.
-
-### Example App Lists
-
-#### Apps to Install (`install_apps.txt`):
-(Apps I want installed on my dev rig)
-
-- NVM for Windows (NodeJS)
-- Android Studio
-- Neofetch
-- Git
-- Git LFS
-- Neovim
-- Zig
-- Ripgrep
-- Powershell
-- JetBrainsMono NerdFont 
-- Visual Studio 2022 Community
-- Visual Studio Code
-- Sysinternals
-- Oh-my-posh
-- Python
-- Dart
-- Xampp
-- OpenJDK 11, 16, 17, 21
-- Dotnet 8
-- Windows Terminal
-- btop
-
-**The following apps are general purpose**:
-- 7zip
-- Google Chrome
-- Mozilla Firefox
-- Opera
-- Microsoft Edge
-- Microsoft Visual C++ Redistributable 2010 - 2012 - 2015 - 2022 x86 and x64 (app and game compatibility)
-- Bitwarden
-
-**Communication apps**:
-- Teams
-
-#### Apps to Remove (`remove_apps.txt`):
-(Default windows 11 apps that I don't require on my development rig...)
-
-- MSN Weather
-- News
-- Microsoft Bing Search
-- Solitaire & Casual Games
-- Paint
 
 ### Troubleshooting
 
