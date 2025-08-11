@@ -1,0 +1,10 @@
+^C:\USERS\HYLKE\APPDATA\LOCAL\NVIM-DATA\LAZY\TELESCOPE-FZF-NATIVE.NVIM\BUILD\CMAKEFILES\1DA5E7B1945FB97575A810B60A233C16\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim -BC:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim/build/fzf.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

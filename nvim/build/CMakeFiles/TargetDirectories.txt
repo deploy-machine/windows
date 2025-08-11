@@ -1,0 +1,4 @@
+C:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim/build/CMakeFiles/fzf.dir
+C:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim/build/CMakeFiles/INSTALL.dir
+C:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/hylke/AppData/Local/nvim-data/lazy/telescope-fzf-native.nvim/build/CMakeFiles/ZERO_CHECK.dir

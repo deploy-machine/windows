@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hylke\AppData\Local\nvim-data\lazy\telescope-fzf-native.nvim\build\CMakeFiles\1da5e7b1945fb97575a810b60a233c16\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{129C9079-466F-39D2-B9FF-38CB6A57241B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

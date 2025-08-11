@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hylke\AppData\Local\nvim-data\lazy\telescope-fzf-native.nvim\src\fzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hylke\AppData\Local\nvim-data\lazy\telescope-fzf-native.nvim\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7CC62444-6442-3A3F-862A-D17535768FD0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
